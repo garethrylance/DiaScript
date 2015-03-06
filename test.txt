@@ -1,0 +1,7 @@
+Foo
+bar1,String
+bar2,String
+
+Bar
+foo1,Int
+foo2,varchar
