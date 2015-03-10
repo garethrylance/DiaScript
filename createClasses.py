@@ -1,6 +1,9 @@
-#diagram  = dia.active_display().diagram
+#layer  = dia.active_display().diagram.data.active_layer.objects[0]
+#import sys,os
 #sys.path.append(os.path.abspath("C:\\dev\\src\\DiaScripts\\"))
-#import createClassses
+#import createClasses
+#createClasses.go()
+#reload(createClasses)
 # test = dia.active_display().diagram
 #uml = test.data.active_layer.objects[0]
 
@@ -96,7 +99,7 @@ def loadClassesFromFile(filename):
     return classesToMake
 			
 def GetClassesToMake():
-				return loadClassesFromFile("C:\\dev\\src\\DiaScripts\\test.txt")
+				return loadClassesFromFile("C:\\dev\\src\\DiaScript\\test.txt")
 				
 				
 def go () :
